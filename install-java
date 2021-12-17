@@ -27,3 +27,32 @@ export JAVA_HOME
 export PATH=$PATH:$JAVA_HOME
 
 // go to the end of file, so don't change nothing in this file
+
+// go to the end of file, so don't change nothing in this file
+// save, close terminal, cntrl alt t 
+// if it is saving, 
+
+cat ~/.bashrc
+
+java --version
+
+// now install git 
+git --version 
+sudo apt-get install git-all
+passphrase
+git --version 
+// using the same email on github account 
+git config --global user.name "yourname"
+git config --list 
+git config --global user.name "jocrv"
+git config --list
+git config --global user.email joanapoppe@gmail.com
+git config --list
+
+## install IDE intellij idead community
+// go INTELLIJ, option community, dowload, next 
+select option 4.1 64 bit-laucher (if your system is not 64-bit, maybe not use 32-bit) 4.2 add "open folder as project" 4.3 .java-.groovy - .kt - .kts 4.4 Add lauchers dir to the PATH 4.5 Next 
+install 
+//option reebot later
+data sharing>> send anonymous statistics 
+done.
