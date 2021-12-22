@@ -1,0 +1,227 @@
+// two windows open task list and outline 
+// window 
+//show view, task list 
+//outline 
+
+
+package com.bio
+public class  FirstProgram { 
+    public static void main(String[] args) {
+        int a = 2;
+        int b = 3; 
+        System.out.printIn("Hello, Peeps" + (a+b));
+    }
+}
+
+//window, preferences, theme dark or light > apply  // restart to apply all configures to this theme >> the same inverse
+// change the letter sixxe: preferences, general, color and fonts, java, Java Editor Text Fonte (overrides default set the text font)
+
+// src 
+// rename package 
+f2 
+new name 
+eu.com.bio 
+
+
+package eu.com.bio
+public class  FirstProgram { 
+    public static void main(String[] args) {
+        int a = 2;
+        int b = 3; 
+        System.out.printIn("Hello, Peeps" + (a+b));
+    }
+}
+
+//or alt shift r 
+// ctrl n class
+// package eu.com.br 
+//change the name package eu.com.bio.model 
+// source folder first-program-java/src 
+// name cat 
+// the methos stubs we would like to create is Inherited abstract methods 
+// finish 
+
+package eu. com.bio
+public class  Cat { 
+    private String name;
+    private String color;
+    private Integer age;
+
+    /*public Cat (String name, String color, Integer age) {
+        this.name = name;
+        this.color = color;
+        this. age = age; 
+
+    }*/ 
+    }
+}
+
+ctrl 3 
+commands generate contructor using fields 
+generate 
+
+package eu. com.bio
+public class  Cat { 
+    private String name;
+    private String color;
+    private Integer age;
+
+    public Cat() {}
+    super(); 
+
+
+    /*public Cat (String name, String color, Integer age) {
+        this.name = name;
+        this.color = color;
+        this. age = age; 
+
+    }*/ 
+    }
+}
+
+// to erase cntr d 
+// erase this line
+
+super();
+
+//so 
+
+package eu. com.bio
+public class  Cat { 
+    private String name;
+    private String color;
+    private Integer age;
+
+    public Cat() {}
+     
+
+
+    /*public Cat (String name, String color, Integer age) {
+        this.name = name;
+        this.color = color;
+        this. age = age; 
+
+    }*/ 
+    }
+}
+
+// create another construtor,
+// cntr d and select all atributter 
+
+package eu. com.bio
+public class  Cat { 
+    private String name;
+    private String color;
+    private Integer age;
+
+    public Cat() {}
+     
+
+
+    public Cat (String name, String color, Integer age) {
+        this.name = name;
+        this.color = color;
+        this. age = age; 
+    }
+
+        /*public Cat (String name, String color, Integer age) {
+        this.name = name;
+        this.color = color;
+        this. age = age; 
+
+
+    }*/ 
+    
+}
+
+// generate getter and setter 
+// cntr 3 
+// select generate getter and setters 
+// selec all or one by one 
+// generate 
+
+package eu. com.bio
+public class  Cat { 
+    private String name;
+    private String color;
+    private Integer age;
+
+    public Cat() {}
+     
+
+
+    public Cat (String name, String color, Integer age) {
+        this.name = name;
+        this.color = color;
+        this. age = age; 
+    }
+
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name; 
+
+    }
+
+    public String getCor() { 
+        return color;
+    }
+
+    public void setCor(String.color) {
+        this.color = color 
+
+    }
+
+    public Integer getAge(){
+        return age;
+    }
+
+    public void setIdade(Integer age) {
+        this.age = age; 
+    }
+
+        /*public Cat (String name, String color, Integer age) {
+        this.name = name;
+        this.color = color;
+        this. age = age; 
+
+
+    }*/ 
+    
+}
+
+// to create the equal hashcode and equals
+// cntr 3 
+// generate hashcode() and equals 
+// select all or one and generate 
+
+@Override
+public int hashCode() {
+    return Object.hash(color, age, name);
+}
+@Override 
+public boolean equals (Object obj) {
+    if (this == obj)
+    return true;
+    if (obj == null)
+    return false; 
+    if (getClass() != obj.getClass())
+    return false; 
+    Cat other = (Cat) obj;
+    return Object.equals(color, other.color) && Objects.equals(age, other.age ) && Objects.equals( name, other.name)
+}
+
+ /*public Cat (String name, String color, Integer age) {
+        this.name = name;
+        this.color = color;
+        this. age = age; 
+
+
+    }*/ 
+    
+}
+
+// two string
+// ctrl 3
+// generate toString()
