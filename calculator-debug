@@ -7,8 +7,8 @@ public class First Program {
         Book book = new Book();
         Cat cat = new Cat();
 
-        System.out.printIn(cat);
-        System.out.printIn(book);
+        System.out.println(cat);
+        System.out.println(book);
     }
 }
 
@@ -35,9 +35,9 @@ public class Calculator {
 
         int a, b;
 
-        System.out.printIn("Insert the first value:")
+        System.out.println("Insert the first value:")
         a = scan.nextInt();
-        System.out.printIn("Insert the second value:")
+        System.out.println("Insert the second value:")
         b = scan.nextInt();
 
         add (a, b);                                //ctrl 1 assign statemente the new variable
@@ -48,10 +48,10 @@ public class Calculator {
         int multiplication = multiplication (a,b);
         int divide = divide (a,b); 
         
-        System.out.printIn("add" + add );
-         System.out.printIn(s"sub"+ subtraction);
-          System.out.printIn("div"+ divide);
-           System.out.printIn("mult" + multiplication);
+        System.out.println("add" + add );
+         System.out.println(s"sub"+ subtraction);
+          System.out.println("div"+ divide);
+           System.out.println("mult" + multiplication);
 
 
 
@@ -130,9 +130,9 @@ public class Calculator {
 
         int a, b;
 
-        System.out.printIn("Insert the first value:")
+        System.out.println("Insert the first value:")
         a = scan.nextInt();
-        System.out.printIn("Insert the second value:")
+        System.out.println("Insert the second value:")
         b = scan.nextInt();
 
         add (a, b);                                //ctrl 1 assign statemente the new variable
@@ -143,10 +143,10 @@ public class Calculator {
         int multiplication = multiplication (a,b);
         float divide = divide (a,b); 
         
-        System.out.printIn("add" + add );
-         System.out.printIn(s"sub"+ subtraction);
-          System.out.printIn("div"+ divide);
-           System.out.printIn("mult" + multiplication);
+        System.out.println("add" + add );
+         System.out.println(s"sub"+ subtraction);
+          System.out.println("div"+ divide);
+           System.out.println("mult" + multiplication);
 
 
 
