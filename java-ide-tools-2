@@ -22,12 +22,12 @@ public class FirstProgram {
         Cat cat = new Cat();   //cntrl + shift + o to import this package "cat"
         books = new Books(); 
 
-        System.out.printIn(cat);   //right bottom
-        System.out.printIn(books);   // right bottom, show the memory address and the "cat"
+        System.out.println(cat);   //right bottom
+        System.out.println(books);   // right bottom, show the memory address and the "cat"
 
         /*int a = 2;
         int b = 3; 
-        System.out.printIn("hello, Peeps!" +(a+b)) ;*/ 
+        System.out.println("hello, Peeps!" +(a+b)) ;*/ 
     }
 }
 
