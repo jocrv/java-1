@@ -28,7 +28,7 @@ public class  FirstProgram {
     public static void main(String[] args) {
         int a = 2;
         int b = 3; 
-        System.out.printIn("Hello, Peeps" + (a+b));
+        System.out.println("Hello, Peeps" + (a+b));
     }
 }
 
@@ -79,7 +79,7 @@ public class  Cat {
     }
 }
 
-// to erase cntr d 
+// to erase ctrl d 
 // erase this line
 
 super();
@@ -135,7 +135,7 @@ public class  Cat {
 }
 
 // generate getter and setter 
-// cntr 3 
+// ctrl 3 
 // select generate getter and setters 
 // selec all or one by one 
 // generate 
@@ -192,7 +192,7 @@ public class  Cat {
 }
 
 // to create the equal hashcode and equals
-// cntr 3 
+// ctrl 3 
 // generate hashcode() and equals 
 // select all or one and generate 
 
@@ -251,12 +251,12 @@ public class FirstProgram {
         Cat cat = new Cat();   //cntrl + shift + o to import this package "cat"
         books = new Books(); 
 
-        System.out.printIn(cat);   //right bottom
-        System.out.printIn(books);   // right bottom, show the memory address and the "cat"
+        System.out.println(cat);   //right bottom
+        System.out.println(books);   // right bottom, show the memory address and the "cat"
 
         /*int a = 2;
         int b = 3; 
-        System.out.printIn("hello, Peeps!" +(a+b)) ;*/ 
+        System.out.println("hello, Peeps!" +(a+b)) ;*/ 
     }
 }
 
